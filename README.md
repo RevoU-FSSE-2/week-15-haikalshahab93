@@ -19,7 +19,8 @@ $ npm install cors
 
 ## Deployment Link 
 
-- Client Link : 
+- Client Link :
+- Server Backend = https://graceful-sweatsuit-newt.cyclic.app/
 
 ## Usage 
 
