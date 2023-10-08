@@ -1,1 +1,38 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/A8ztcAuX)
+# Welcome to Week 15
+Simple Cors Implementation 
+
+## Authors
+
+👤 **Muhammad Haikal Shahab**
+
+### Getting Started
+
+## Installation
+
+This is a [Node.js](https://nodejs.org/en/) module available through the
+[npm registry](https://www.npmjs.com/). Installation is done using the
+[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+
+```sh
+$ npm install cors
+```
+
+## Deployment Link 
+
+- Client Link : 
+
+## Usage 
+
+```javascript
+app.get('/', (req, res) => {
+  res.json({ message: 'Transfer Request API DATA' });
+});
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+app.use(
+  OpenApiValidator.middleware({
+    apiSpec: openApiPath,
+    validateRequests: true,
+  })
+);
+```
