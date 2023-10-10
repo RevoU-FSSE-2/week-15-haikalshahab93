@@ -19,7 +19,7 @@ $ npm install cors
 
 ## Deployment Link 
 
-- Client Link : frontend-15.vercel.app
+- Client Link : https://frontend-15.vercel.app
 - Server Backend = https://graceful-sweatsuit-newt.cyclic.app/
 
 ## Usage 
